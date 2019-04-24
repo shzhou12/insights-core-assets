@@ -749,6 +749,15 @@
             "symbolic_name": "pcs_status"
         },
         {
+            "command": "/bin/ps aexww",
+            "pattern": [
+                "COMMAND",
+                "/usr/bin/fluentd",
+                "/usr/bin/openshift-router"
+            ],
+            "symbolic_name": "ps_aexww"
+        },
+        {
             "command": "/bin/ps aux",
             "pattern": [
                 "/usr/bin/docker",
